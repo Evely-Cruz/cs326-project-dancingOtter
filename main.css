@@ -3,7 +3,7 @@ body{
     height: 100vh;
     width: 100%;
     /* Background */
-    background-image: linear-gradient(rgba(255, 255, 255, 0.977),rgba(173, 225, 154, 0.694));
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url('webBackground.jpeg');
     background-size: cover;
     background-position: center;
 }
