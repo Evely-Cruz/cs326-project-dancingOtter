@@ -1,0 +1,135 @@
+body{
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+    /* Background */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.977),rgba(173, 225, 154, 0.694));
+    background-size: cover;
+    background-position: center;
+}
+
+.userPersona{
+    margin-top: 10px;
+    /*text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 60px;
+}
+
+.name{
+    border: none;
+    background-color: transparent;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    size-adjust:unset;
+    max-width:fit-content;
+}
+
+.container{
+    float:left;
+    list-style: none;
+}
+
+.container .card {  
+    position: relative;  
+    width: 200px;  
+    height: 150px;  
+    background: rgb(165, 193, 210);    margin: 20px;  
+    box-shadow: 0 15px 35px rgb(40, 76, 95);  
+    border-radius: 15px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    backdrop-filter: blur(10px);  
+}  
+
+.container .card .info {  
+    position: absolute;  
+    bottom: 50px;  
+    display: flex; 
+}  
+.container .card .content {  
+    position: relative;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;  
+    transition: 0.5s;
+}  
+.container .card:hover .content {  
+    transform: translateY(-20px);  
+}  
+.container .card .content .contentBx h3 {  
+    color: rgb(49, 44, 82);  
+    text-transform: uppercase;  
+    letter-spacing: 2px;  
+    font-weight: 500;  
+    font-size: 18px;  
+    text-align: center;  
+    margin: 20px 0 10px;  
+    line-height: 1.1em;  
+}  
+
+.container .card .content .contentBx h3 span {  
+    font-size: 12px;  
+    font-weight: 300;  
+    text-transform: initial;  
+}
+
+.container .card .info li {  
+    list-style: none;  
+    margin: 0 10px;  
+    transform: translateY(40px);  
+    transition: 0.5s;  
+    opacity: 0;  
+}
+
+.container .card:hover .info li {  
+    transform: translateY(40px);  
+    opacity: 1;  
+} 
+
+.container .card .info li a {  
+    color: rgb(112, 79, 51);  
+    font-size: 15px;
+}  
+
+.feelingsCard {
+    float:right;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feelingsCard__cover {
+    flex: 1;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+
+.button{
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color:rgb(174, 215, 202);
+}
+
+
+.button:hover,
+.button:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
