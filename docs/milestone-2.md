@@ -8,6 +8,19 @@
 ###### I have close friends of different backgrounds and lifestyles who have and/or continue to suffer from depression, have attempted suicide, and others who have even "succeeded". My sister is a mental health counselor at a well known hospital in Boston and one of the projects that she did was posting positive quotes around her unit (psych ward). She mentioned how one of her patients approached her and thanked her for having done that. This long-term patient even asked her to put a quote that said "love yourself". This patient mentioned that growing up no one taught her how to and that was one of the things that she struggled with the most. So far, the project has shown to have had positive results to these patients.
 ###### I think a website like this could be beneficial to anyone not just a specific group of people. The name of the website is ImMemorable. This comes from I'm Memorable since most of the people that I know that struggle with depression struggle with their self worth. The name could also be read as Immemorable to refer to any events or feelings that may have influenced them negatively, as a sense that those events must be forgotten (and healed). 
 ##### Functionality: 
-###### I am thinking of having this SPA that has resources to most common hotlines used in the USA. There could be a button that when clicked woudl display a positive quote of the day which would be randomized. I will also add links to certain words so that when clicked it would take the user somewhere related to what they clicked. The page would have a friendly UI and I would add enough style so it is not simply a blank page. with quotes and numbers. I want to have a background for my website and take full advantange of CSS to make the website look somewhat modern. I will also add a section where the user can select their mood for the day and elaborate if desired.u
+###### I am thinking of having this SPA that has resources to most common hotlines used in the USA. There could be a button that when clicked woudl display a positive quote of the day which would be randomized. I will also add links to certain words so that when clicked it would take the user somewhere related to what they clicked. The page would have a friendly UI and I would add enough style so it is not simply a blank page. with quotes and numbers. I want to have a background for my website and take full advantange of CSS to make the website look somewhat modern. I will also add a section where the user can write about how they are feeling.
 
+##### HTML Snippets:
+###### User name: I added this component to the website which will make this feel more personal. There is a placeholder which will ask the user for their name. In the back end, there is an event listener that will grab the name of the user and display it in a different section of the website.
+![](userName.jpg)
+
+###### Help Information: This is a section where the user will get all the information for helplines. A lot of CSS was used for this to make it look more modern. If there is a phone number then it is displayed, a website is also provided so the user can get more information regarding the help line. This is only a section of all the helplines, there are more that I display.
+![](helplines.jpg)
+
+###### User Feelings: this is a button that when a user clicks a text box will appear which will allow the user to type in what they are feeling. 
+
+![](feelings.jpg)
+
+##### Website progress : 
+###### <https://www.loom.com/share/bbb38ec59a154e7582e1d3fa3a98b92b>
 
