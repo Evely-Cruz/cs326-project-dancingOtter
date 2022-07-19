@@ -130,3 +130,10 @@ body{
     color: #2c5777;
 }
 
+.quoteButton{
+    background-color: #95c7ea;
+    color: #2c5777;
+    margin-right: -130px;
+    float:right;
+}
+
