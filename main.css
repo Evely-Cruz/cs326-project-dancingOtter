@@ -103,6 +103,7 @@ body{
     padding-right: 50px;
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .feelingsCard__cover {
@@ -117,6 +118,7 @@ body{
     display: block;
     height: 150px;
     width: 100%;
+
 }
 
 .button{
@@ -124,12 +126,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     font-weight: 400;
-    background-color:rgb(174, 215, 202);
+    background-color: #b3d3ea;
+    color: #2c5777;
 }
 
-
-.button:hover,
-.button:focus {
-  background-color: #b3d3ea;
-  color: #2c5777;
-}
